@@ -5,8 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <header class="banner">
+            <h1>Food Fight</h1>
+        </header>
+        <div class="container" id="frame">
+            <div id="info-banner">
+                <div class="info-bar" id="player-bar">
+                    <h3 class="name" id="player-name">Player</h3>
+                    <div class="health-bar" id="player-health"></div>
+                </div>
+                <div class="info-bar" id="npc-bar">
+                    <h3 class="name" id="npc-name">Npc</h3>
+                    <div class="health-bar" id="npc-health"></div>
+                </div>
+            </div>
+            <div id="play-area">
+                <div class="hand" id="npc-hand">
+                    <div class="card-area" id="player-hand-1">1</div>
+                    <div class="card-area" id="player-hand-2">2</div>
+                    <div class="card-area" id="player-hand-3">3</div>
+                    <div class="card-area" id="player-hand-4">4</div>
+                    <div class="card-area" id="player-hand-5">5</div>
+                </div>
+                <div class="field" id="npc-field">
+                    <div class="card-area" id="npc-deck">deck</div>
+                    <div class="card-area" id="npc-card-5">5</div>
+                    <div class="card-area" id="npc-card-4">4</div>
+                    <div class="card-area" id="npc-card-3">3</div>
+                    <div class="card-area" id="npc-card-2">2</div>
+                    <div class="card-area" id="npc-card-1">1</div>
+                    <div class="card-area" id="npc-graveyard">gy</div>
+                </div>
+                <div class="field" id="player-field">
+                    <div class="card-area" id="player-graveyard">gy</div>
+                    <div class="card-area" id="player-card-1">1</div>
+                    <div class="card-area" id="player-card-2">2</div>
+                    <div class="card-area" id="player-card-3">3</div>
+                    <div class="card-area" id="player-card-4">4</div>
+                    <div class="card-area" id="player-card-5">5</div>
+                    <div class="card-area" id="player-deck">deck</div>
+                </div>
+                <div class="hand" id="player-hand">
+                    <div class="card-area" id="player-hand-1">1</div>
+                    <div class="card-area" id="player-hand-2">2</div>
+                    <div class="card-area" id="player-hand-3">3</div>
+                    <div class="card-area" id="player-hand-4">4</div>
+                    <div class="card-area" id="player-hand-5">5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/index.js"></script>
 </body>
 </html>
